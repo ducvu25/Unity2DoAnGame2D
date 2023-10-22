@@ -1,0 +1,63 @@
+skeleton.png
+size:662,2747
+filter:Linear,Linear
+pma:true
+GLOW CANH DUOI
+bounds:2,225,285,436
+offsets:202,80,691,651
+rotate:90
+GLOW CANH TREN
+bounds:2,1203,510,360
+offsets:65,133,691,651
+GLOW than
+bounds:2,1565,472,535
+offsets:118,39,691,651
+rotate:90
+Head
+bounds:451,314,219,193
+offsets:122,125,463,443
+rotate:90
+Lboot T
+bounds:539,1571,96,96
+Rboot P
+bounds:346,39,77,184
+body
+bounds:2,774,427,477
+offsets:67,26,561,529
+rotate:90
+body_2
+bounds:539,1900,137,121
+rotate:90
+boot T
+bounds:539,1669,229,108
+rotate:90
+character
+bounds:2,2039,706,635
+offsets:0,3,706,638
+rotate:90
+ef1
+bounds:514,1178,229,143
+offsets:12,38,259,219
+rotate:90
+ef2
+bounds:481,674,252,138
+offsets:7,45,259,219
+rotate:90
+eff1
+bounds:451,535,137,202
+offsets:58,17,259,219
+rotate:90
+eyes
+bounds:539,1409,160,93
+offsets:200,220,561,529
+rotate:90
+wing1
+bounds:2,34,189,342
+rotate:90
+wing2
+bounds:2,512,447,260
+wing3
+bounds:481,928,150,248
+wing4
+bounds:440,2,310,212
+rotate:90

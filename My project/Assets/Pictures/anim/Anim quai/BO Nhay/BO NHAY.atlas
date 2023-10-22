@@ -1,0 +1,67 @@
+BO NHAY.png
+size:1399,1011
+filter:Linear,Linear
+pma:true
+body
+bounds:2,527,679,482
+boot1
+bounds:699,202,145,260
+rotate:90
+boot2
+bounds:941,475,86,172
+boot3
+bounds:683,527,120,256
+rotate:90
+boot4
+bounds:510,271,187,254
+canh1
+bounds:683,649,378,360
+canh2
+bounds:1063,569,304,134
+eyes
+bounds:2,2,35,35
+offsets:1,1,37,37
+fx7 (01)
+bounds:1250,399,168,134
+offsets:157,112,481,539
+rotate:90
+fx7 (02)
+bounds:891,3,197,152
+offsets:138,112,481,539
+rotate:90
+fx7 (03)
+bounds:679,26,210,174
+offsets:129,114,481,539
+fx7 (04)
+bounds:506,16,227,171
+offsets:115,114,481,539
+rotate:90
+fx7 (05)
+bounds:699,349,226,176
+offsets:116,116,481,539
+fx7 (06)
+bounds:314,12,231,190
+offsets:114,105,481,539
+rotate:90
+fx7 (07)
+bounds:1029,405,219,162
+offsets:40,23,334,334
+fx7 (08)
+bounds:1045,11,189,149
+offsets:45,33,334,334
+rotate:90
+giap
+bounds:1063,705,334,304
+hair
+bounds:2,245,506,280
+hat
+bounds:961,202,154,195
+head
+bounds:2,39,204,310
+offsets:0,0,204,312
+rotate:90
+mount1
+bounds:1117,241,185,156
+mount2
+bounds:1196,64,175,146
+rotate:90
