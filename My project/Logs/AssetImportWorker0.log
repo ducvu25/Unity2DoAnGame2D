@@ -1,0 +1,420 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 12010 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\App\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Hoc tap/Other/Unity/Unity2DoAnGame2D/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51041
+Successfully changed project path to: E:/Hoc tap/Other/Unity/Unity2DoAnGame2D/My project
+E:/Hoc tap/Other/Unity/Unity2DoAnGame2D/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8728] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 1299216191 [EditorId] 1299216191 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KIU34EQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8728] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 1299216191 [EditorId] 1299216191 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KIU34EQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 1889.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path D:/App/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Hoc tap/Other/Unity/Unity2DoAnGame2D/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     6005 MB
+    Driver:   31.0.101.4575
+Initialize mono
+Mono path[0] = 'D:/App/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/App/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/App/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/App/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/App/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/App/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.079903 seconds.
+- Loaded All Assemblies, in  2.020 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 325 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 2881ms
+	BeginReloadAssembly (1423ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (1423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (391ms)
+			TypeCache.Refresh (390ms)
+				TypeCache.ScanAssembly (375ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (785ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (566ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.368 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 13338ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (11971ms)
+		LoadAssemblies (11804ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (253ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (752ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (0.9 MB). Loaded Objects now: 6132.
+Memory consumption went from 221.7 MB to 220.9 MB.
+Total: 7.003900 ms (FindLiveObjects: 0.632900 ms CreateObjectMapping: 0.891700 ms MarkObjects: 4.713900 ms  DeleteObjects: 0.763400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25460.439708 seconds.
+  path: Assets/Pictures/asset map in game_1/8/skeleton-Idle_21.png
+  artifactKey: Guid(ef8b4ada0de3b4f4194ac04c0f072a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/8/skeleton-Idle_21.png using Guid(ef8b4ada0de3b4f4194ac04c0f072a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d762b1f5a8af97a09d256d1fd9f7a7c') in 0.298060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 56.750302 seconds.
+  path: Assets/Pictures/asset map in game_1/8/skeleton-Hit_00.png
+  artifactKey: Guid(368a399d7b3dc234cb247c53a8a450cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/8/skeleton-Hit_00.png using Guid(368a399d7b3dc234cb247c53a8a450cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4463481d26a13e332afecb9e0d8c01fb') in 0.061508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 90.938441 seconds.
+  path: Assets/Pictures/asset map in game_1/8/skeleton-Idle 2_00.controller
+  artifactKey: Guid(2d3e61ab74254d142aef6f2dffc733be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/8/skeleton-Idle 2_00.controller using Guid(2d3e61ab74254d142aef6f2dffc733be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc7c7800e39a166567cd6a41f970e2d') in 0.001916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 46.934294 seconds.
+  path: Assets/Pictures/asset map in game_1/10
+  artifactKey: Guid(b81fc0b13326f724b9c1537ca6f49ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10 using Guid(b81fc0b13326f724b9c1537ca6f49ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b7daf61ee88a1dd4981daac90e0f2e') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.003073 seconds.
+  path: Assets/Pictures/asset map in game_1/10/skeleton-Idle 2_00.png
+  artifactKey: Guid(66dd3d9d8c6fb9f40938b504ba190012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10/skeleton-Idle 2_00.png using Guid(66dd3d9d8c6fb9f40938b504ba190012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0da8adecf54ae23beab06cbedf6b48') in 0.032454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.586807 seconds.
+  path: Assets/Pictures/asset map in game_1/10/skeleton-Idle 2_01.png
+  artifactKey: Guid(4df64094681496644b1b3c98a357b362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10/skeleton-Idle 2_01.png using Guid(4df64094681496644b1b3c98a357b362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a748ae38aaaca3d32ee72f4b5c7d5f') in 0.069708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.660964 seconds.
+  path: Assets/Pictures/asset map in game_1/10/skeleton-Idle_00.png
+  artifactKey: Guid(5b18bada536fb1a4e971af6a3772a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10/skeleton-Idle_00.png using Guid(5b18bada536fb1a4e971af6a3772a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfb1adebdaedc739b7466d945e470ff') in 0.056387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.137633 seconds.
+  path: Assets/Pictures/asset map in game_1/10/skeleton-Hit_00.png
+  artifactKey: Guid(005d20fe92a65664590bb27d3fe10cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10/skeleton-Hit_00.png using Guid(005d20fe92a65664590bb27d3fe10cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecb7cc87ae23eee4df251118ab13954') in 0.069135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.151367 seconds.
+  path: Assets/Pictures/asset map in game_1/10/skeleton-Hit_14.png
+  artifactKey: Guid(2905bbf7d271b68498b0822f38cd92af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10/skeleton-Hit_14.png using Guid(2905bbf7d271b68498b0822f38cd92af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9726f4b99967dd1237252c891eba0584') in 0.047271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 114.360043 seconds.
+  path: Assets/Pictures/asset map in game_1/10/Cay_10.controller
+  artifactKey: Guid(ea7f25251ee59c44c9ef726e173a3ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10/Cay_10.controller using Guid(ea7f25251ee59c44c9ef726e173a3ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a116cd94f5a1383d385d037f17c021a') in 0.001298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.581126 seconds.
+  path: Assets/Pictures/asset map in game_1/10/Idle2.anim
+  artifactKey: Guid(70a0a3ccbc00f094d8fbaba96e1caed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10/Idle2.anim using Guid(70a0a3ccbc00f094d8fbaba96e1caed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3060c52e37741863115bc59a26379f3e') in 0.017115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.752594 seconds.
+  path: Assets/Pictures/asset map in game_1/8/Hit.anim
+  artifactKey: Guid(d63b16f98794c494c835261fda09c07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/8/Hit.anim using Guid(d63b16f98794c494c835261fda09c07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09184a506dda11107c958c523d5be58') in 0.130427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.219413 seconds.
+  path: Assets/Pictures/asset map in game_1/10/Hit.anim
+  artifactKey: Guid(8b0f50dee7dda84479384730e3c2655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/10/Hit.anim using Guid(8b0f50dee7dda84479384730e3c2655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93b4d8d5a9d1c666c0f5e1020ecc65f') in 0.008765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.873723 seconds.
+  path: Assets/Pictures/asset map in game_1/11
+  artifactKey: Guid(ef33b808bdf1547438aa61839ffa12f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/11 using Guid(ef33b808bdf1547438aa61839ffa12f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e04f672c9d503a997c9f56965ba4a2') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.060445 seconds.
+  path: Assets/Pictures/asset map in game_1/11/skeleton-Idle 2_00.png
+  artifactKey: Guid(aca6f6e22ea72ee4aa4a1284da366536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/11/skeleton-Idle 2_00.png using Guid(aca6f6e22ea72ee4aa4a1284da366536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2460116b714a11188708084652fac5fd') in 0.659701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 101.310267 seconds.
+  path: Assets/Pictures/asset map in game_1/11/skeleton-Idle_00.png
+  artifactKey: Guid(55f795dde423aff459c2d98ce18736f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/11/skeleton-Idle_00.png using Guid(55f795dde423aff459c2d98ce18736f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0944c3242b739873b55146a3f1e4b21') in 0.042964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 41.379010 seconds.
+  path: Assets/Pictures/asset map in game_1/11/skeleton-Hit_00.png
+  artifactKey: Guid(8f94285756e36fd42bc30c9575fc4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/11/skeleton-Hit_00.png using Guid(8f94285756e36fd42bc30c9575fc4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc1e0e408a059a1bb832e1f1a668136') in 0.043608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.863265 seconds.
+  path: Assets/Pictures/asset map in game_1/11/skeleton-Hit_08.png
+  artifactKey: Guid(d870e712067b989479073195f08c10ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/11/skeleton-Hit_08.png using Guid(d870e712067b989479073195f08c10ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fc01ab44500b979abd7fccbaef981a') in 0.141807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 47.043414 seconds.
+  path: Assets/Pictures/asset map in game_1/11/Hit.anim
+  artifactKey: Guid(e450abc65121e1342b55dfcd25c901ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/11/Hit.anim using Guid(e450abc65121e1342b55dfcd25c901ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d03b32894ae34f0510470e6a4dba7') in 0.051979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 94.444715 seconds.
+  path: Assets/Pictures/asset map in game_1/12/skeleton-Idle 2_20.png
+  artifactKey: Guid(69d9cc6179de6d4468c0dc0d8b3e4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/skeleton-Idle 2_20.png using Guid(69d9cc6179de6d4468c0dc0d8b3e4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483478c5d0d4236bd6768ba566a41577') in 0.039952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.490348 seconds.
+  path: Assets/Pictures/asset map in game_1/12/skeleton-Idle 2_00.png
+  artifactKey: Guid(1043bddbd89047e49b5d42bf7ddd613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/skeleton-Idle 2_00.png using Guid(1043bddbd89047e49b5d42bf7ddd613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94166524ac192ab8a601575b99a5c0e') in 0.027037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.075266 seconds.
+  path: Assets/Pictures/asset map in game_1/12/skeleton-Idle 2_16.png
+  artifactKey: Guid(6eee96f2e29934b4eaa061d730f22ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/skeleton-Idle 2_16.png using Guid(6eee96f2e29934b4eaa061d730f22ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c986203243a79ff218b6130a1bf3abc4') in 0.023078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.095804 seconds.
+  path: Assets/Pictures/asset map in game_1/12/skeleton-Idle_00.png
+  artifactKey: Guid(baea2e6951148504badc4edeab67b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/skeleton-Idle_00.png using Guid(baea2e6951148504badc4edeab67b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8f6a52d41fa7a6b438b0aba76bfec5') in 0.036980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 23.067118 seconds.
+  path: Assets/Pictures/asset map in game_1/12/skeleton-Hit_00.png
+  artifactKey: Guid(19bccda905575074d8d9c5d3ebd88f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/skeleton-Hit_00.png using Guid(19bccda905575074d8d9c5d3ebd88f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b323e98da114aaa7e02318f0e9c2b151') in 0.098055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.247686 seconds.
+  path: Assets/Pictures/asset map in game_1/12/skeleton-Hit_14.png
+  artifactKey: Guid(5f591ee6809fad8469ad7390f9a3051d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/skeleton-Hit_14.png using Guid(5f591ee6809fad8469ad7390f9a3051d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e17389066d09f9b07fc86cd90e9ef15') in 0.049301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.052091 seconds.
+  path: Assets/Pictures/asset map in game_1/12/skeleton-Hit_06.png
+  artifactKey: Guid(e5d51acdf1674364fbd40adc359d8de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/skeleton-Hit_06.png using Guid(e5d51acdf1674364fbd40adc359d8de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8024cd4495fbb8e07e85d30fc758475') in 0.278602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.721111 seconds.
+  path: Assets/Pictures/asset map in game_1/12/Hit.anim
+  artifactKey: Guid(9d9016a44323dc9428aa8de174713e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/Hit.anim using Guid(9d9016a44323dc9428aa8de174713e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900ecd45c72d7559fdbb6731180a82d8') in 0.002106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.060787 seconds.
+  path: Assets/Pictures/asset map in game_1/12/Cay_12.controller
+  artifactKey: Guid(26108437b6ae55a4ababbe8d5253c90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/asset map in game_1/12/Cay_12.controller using Guid(26108437b6ae55a4ababbe8d5253c90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87715fecb811d9500423b16e387f6676') in 0.003993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 80.969380 seconds.
+  path: Assets/Prefabs/doVat/Cay_12.prefab
+  artifactKey: Guid(464bb6ebafe9e9249ba364c300d23df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/doVat/Cay_12.prefab using Guid(464bb6ebafe9e9249ba364c300d23df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a7bfbdabb9130d34b24e874035a849') in 0.873282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
