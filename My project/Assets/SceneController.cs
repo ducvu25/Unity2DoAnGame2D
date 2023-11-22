@@ -19,7 +19,7 @@ public enum SceneIndex
 public class SceneController : MonoBehaviour
 {
     private static string[] Menu = { "HomeMenu", "HomeSetting" , "SelectMap", "Play1", "Play2", "Play3", "Play4", "Shop", "SkillSetting"};
-    private static SceneController instance;
+    public static SceneController instance;
 
     private void Awake()
     {
@@ -27,17 +27,13 @@ public class SceneController : MonoBehaviour
         {
             instance = this;
         }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 
-    public static void LoadScene(SceneIndex i)
+    public void LoadScene(SceneIndex i)
     {
         instance.StartCoroutine(instance.LoadSceneAsync(Menu[(int)i]));
     }
-    public static void LoadScene(int i)
+    public void LoadScene(int i)
     {
         instance.StartCoroutine(instance.LoadSceneAsync(Menu[i]));
     }
