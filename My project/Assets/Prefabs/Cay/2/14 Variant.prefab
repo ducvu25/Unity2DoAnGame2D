@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5268630557295541779
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -92.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140097199045549873, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370070847675353832, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_Size.x
+      value: 4.2030334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370070847675353832, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_Size.y
+      value: 20.565548
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370070847675353832, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.19172668
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370070847675353832, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5649128
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370070847675353832, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 16.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370070847675353832, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 19.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.size
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 79bdd5ee43d08364fb83e850e4febad9, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e24b766133e5394e84f8a0818531876, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 27b7b3471f9820d4f9ede2770786b38d, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9eae786f59c134244b27a9cebbf361c3, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4225a5385d7d080479b32ac131c4fd00, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: e146cdd474755b7489d410c1d65fc1ca, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2e63f34f27adafe49aa5347923d9d84c, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: c251a9cf9f65f6146bccbae997aa5733, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 06c17b633647a824e9f23eabf52e4384, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 202edea4626853241835ce15edebe9f1, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 58d35b56c491b494b8572ff2b5c042d9, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 62e933e16721d744199998754bf8fb4a, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1679ed35557669c4fabdab18902871c3, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: f912996a34bd34c47ae79780c1091167, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2813fa36a98539c44a807395dcea8250, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5316867faad6268419f6e21b5de151fc, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 247cdd1aa5ce884458ea9f5e38eea174, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d78ff44cf85fa419ef00fe8cad4ef4, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1efd03434568c1c40b88d42dfffd41c3, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 60c7a56606fdd6748bbe779615095734, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: f0b039624aade274987995ec761c3602, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: bd1cd93dddd34b649b134c2002e849fe, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 61586bfd24ec31c4b8251f75669c0644, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2e5964ce29345574b884fa4361d03116, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3bfddabe1cf600a40a22463a935e728b, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 38062e7267c03b64dacd942c34c59e33, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: b5aa31c4512d5a54e9eae67df0e3146f, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7346527f9607b64449867e0f8693539b, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 42495bd39542a9947b123f47faa1a6a4, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: a2b23f28ffdf677439c52dc05a5fc55c, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4dde958b6cbce8146a52cca3ed4ae252, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: d81a9f3a496fade48bdd24370cae5d7a, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5759d37633fa5b24c915ea9d29b221ed, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[13]
+      value: 
+      objectReference: {fileID: 21300000, guid: 11394f28a3ce83047945776a2a5c13ac, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spriteAttack.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7536d1ca94086374083a5cab03344dfd, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 831d4abbed8bd064fa89462ee6e454c0, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: f41a6b1a199be7e4ca3eba607e931376, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: d8ee5cf35dc024b4eac5632609856b7b, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[13]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2643b84ac5e1d0d43820f4a1b0b5374d, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: 00192ba0c1452ab42803b71c67867205, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[15]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2beaf712d48356846ab6edda08a5dd33, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[16]
+      value: 
+      objectReference: {fileID: 21300000, guid: 404d51e926e1d4c4c95755b4765a1640, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[17]
+      value: 
+      objectReference: {fileID: 21300000, guid: 81fd6e827a73f094cad3b51b5cba920b, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[18]
+      value: 
+      objectReference: {fileID: 21300000, guid: f8d4642b5889bd546b5ed63483778b8d, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[19]
+      value: 
+      objectReference: {fileID: 21300000, guid: 82e9ee127bf23e7468ec012db1e4ead8, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[20]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0bdd8a4c985434845a07ed0cc93eef35, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[21]
+      value: 
+      objectReference: {fileID: 21300000, guid: 91f16e8e95f786448bff04e5b5d67e95, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[22]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4fad20480f5196f43aa7e82470201db9, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[23]
+      value: 
+      objectReference: {fileID: 21300000, guid: f43279f48eb80494b8285ab7422c41e2, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[24]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8272c418839c4624b9bafc5fdfc3c93a, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[25]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8272c418839c4624b9bafc5fdfc3c93a, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[26]
+      value: 
+      objectReference: {fileID: 21300000, guid: be9df6ab5b8905f499a0cebbf6a32301, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[27]
+      value: 
+      objectReference: {fileID: 21300000, guid: 59e4576a0027e91439640d84c258d526, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[28]
+      value: 
+      objectReference: {fileID: 21300000, guid: bc0a371f53ca33a4a8a1cda8da97ccc5, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[29]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9915b65c118000a45a6b4ef8b2ffe3e7, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[30]
+      value: 
+      objectReference: {fileID: 21300000, guid: b0081cb305266634cab1252764bc2e5c, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[31]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c9709e07f4fe174e86425925ff008f1, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[32]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5794c7fa7f97033498ae2cb15029f7e7, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[33]
+      value: 
+      objectReference: {fileID: 21300000, guid: d0fd2416eae7d8848935dcec3405f66c, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[34]
+      value: 
+      objectReference: {fileID: 21300000, guid: 71022bca29bcca847b516cf2058fd798, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[35]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7d0bff547ccc88b44941c4f69414cb33, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[36]
+      value: 
+      objectReference: {fileID: 21300000, guid: cc100accf1edac64380874a3bc9b5968, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[37]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1df9c4e44ec2e264a8f02b1c69b1c49f, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle1.Array.data[38]
+      value: 
+      objectReference: {fileID: 21300000, guid: de23955f35e784f4f81d338737667776, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: c74db3ec09cc4ec4f926092df27293b3, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: bb559d8b17934a94fa0cd462f4d46237, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: a77263f74cd1e3640911560cd1960051, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[13]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7de44a3d8536485489a13cd1ec4b50a6, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b178734d03205a4cb49ada05d735397, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[15]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6422aed6970285e4d892d64d48363a8a, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[16]
+      value: 
+      objectReference: {fileID: 21300000, guid: d32c607dbf522d140a24aefb5d96287a, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[17]
+      value: 
+      objectReference: {fileID: 21300000, guid: fa353a619543ac84dac13446c21b0226, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[18]
+      value: 
+      objectReference: {fileID: 21300000, guid: ceb5788bdc3e5674ba37da47e06ddd0d, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[19]
+      value: 
+      objectReference: {fileID: 21300000, guid: 66758e7530f73a64daebce4621d33668, type: 3}
+    - target: {fileID: 3522624664515381485, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: spritesIdle2.Array.data[20]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8cf969dc7c5759d4e969742b84b73a49, type: 3}
+    - target: {fileID: 8788559125398724973, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 79bdd5ee43d08364fb83e850e4febad9, type: 3}
+    - target: {fileID: 9053090544885584303, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
+      propertyPath: m_Name
+      value: 14 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 468ab969b554fb64db9869fc4a0f1d46, type: 3}
