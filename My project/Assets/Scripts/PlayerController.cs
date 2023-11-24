@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using static UnityEngine.Rendering.DebugUI;
 
 public enum action
 {
     idle,
-    walk,
     run,
     jump,
     fell,
@@ -18,20 +18,23 @@ public class PlayerController : MonoBehaviour
     //[SerializeField] PlayerSO playerInformation;
     [SerializeField][Range(1, 3)] int numberJump;
 
-    float speed;
-    float hp;
-    float mp;
-    float dame;
+    [SerializeField] float speed;
+    [SerializeField]  float hp;
+    [SerializeField] float mp;
+    [SerializeField] float dame;
     [SerializeField] float jumpFoce;
-    float[] time_spawn;
+    [SerializeField] float time_spawn;
+    [SerializeField] float delayCombo;
+    float _time_spawn = 0;
+    float _delayCombo = 0;
 
     [Header("-------Check collider-------\n")]
     [Header("------Ground-----")]
     [SerializeField] LayerMask lmGround;
     [SerializeField] Transform pointDown;
     [SerializeField] float pointDownRadius = 0.5f;
+    float _speed;
     bool isGround;
-    bool isWater;
     bool canJump;
     int m_numberJump;
     int inputMovement;
@@ -42,10 +45,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float pointWallDistance = 0.1f;
     [SerializeField] float wallSpeed;
     bool isTochingWall;
-
-    [Header("------Clim Wall-----")]
-    [SerializeField] Transform pointClimWall;
-    [SerializeField] float pointClimWallDistance = 0.1f;
 
     bool facingRight;
 
@@ -60,12 +59,12 @@ public class PlayerController : MonoBehaviour
         mp = playerInformation.Mp;
         dame = playerInformation.Dame;
         jumpFoce = playerInformation.JumpFoce;*/
-        speed = 0;
+        //speed = 0;
         /*time_spawn = new float[playerInformation.TimeSpawn.Length];
         for (int i = 0; i < playerInformation.TimeSpawn.Length; i++)
             time_spawn[i] = 0;
         */
-        facingRight = true;
+        facingRight = false;
         rg = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
@@ -73,9 +72,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(m_numberJump);
         this.CheckCollider();
         this.CheckInput();
-        //this.UpdateAnimation();
+        this.UpdateAnimation();
     }
     void CheckCollider()
     {
@@ -102,6 +102,8 @@ public class PlayerController : MonoBehaviour
     void CheckInput()
     {
         inputMovement = 0;
+        _time_spawn -= Time.deltaTime;
+        _delayCombo -= Time.deltaTime;
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             if (facingRight)
@@ -119,22 +121,14 @@ public class PlayerController : MonoBehaviour
         else
         {
             rg.velocity = new Vector2(0, rg.velocity.y);
-            speed = 0;
+            _speed = 0;
         }
 
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.UpArrow))
             this.Jump();
 
-        /*KeyCode[] input = { KeyCode.Q, KeyCode.W };
-        for (int i = 0; i < time_spawn.Length; i++)
-        {
-            if (time_spawn[i] > 0)
-                time_spawn[i] -= Time.deltaTime;
-            if (Input.GetKeyDown(input[i]))
-            {
-                Attack(i);
-            }
-        }*/
+        if (Input.GetKeyDown(KeyCode.Q))
+            Attack();
     }
     void Run()
     {
@@ -148,9 +142,9 @@ public class PlayerController : MonoBehaviour
     {
         if (isGround)
         {
-            rg.velocity = new Vector2(value*speed, rg.velocity.y);
-            if (speed < 10f)//playerInformation.Speed * 1.3f)
-                speed += 10 / 8;//playerInformation.Speed / 8;
+            rg.velocity = new Vector2(value*_speed, rg.velocity.y);
+            if (_speed < 2)
+                _speed += speed;//playerInformation.Speed / 8;
         }
         else if(!isGround && !isTochingWall)
         {
@@ -173,14 +167,22 @@ public class PlayerController : MonoBehaviour
             rg.velocity = new Vector2(rg.velocity.x, jumpFoce);
         }
     }
-    void Attack(int type)
+    void Attack()
     {
-        int[] attack = { -1, 1 };
-        if (time_spawn[type] <= 0)
+       // Debug.Log(_delayCombo);
+        if (_time_spawn <= 0)
         {
             animator.SetTrigger("Attack");
-            animator.SetFloat("Attack Type", attack[type]);
-            //time_spawn[type] = playerInformation.TimeSpawn[type];
+            if(_delayCombo > 0)
+            {
+                animator.SetFloat("Skill", (animator.GetFloat("Skill") + 1) % 3);
+            }
+            else
+            {
+                animator.SetFloat("Skill", 0);
+            }
+            _delayCombo = delayCombo;
+            _time_spawn = time_spawn;
         }
     }
     void Filip()
@@ -188,34 +190,36 @@ public class PlayerController : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
-   /* void UpdateAnimation()
+   void UpdateAnimation()
     {
         action state = action.idle;
-        if(speed > 0.1f)
+        if(math.abs(rg.velocity.x) >= 0.1f)
         {
-            if (speed > playerInformation.Speed * 0.75f)
-                state = action.run;
-            else
-                state = action.walk;
+            state = action.run;
         }
-        if (rg.velocity.y > 0.1f)
-        {
-            state = action.jump;
-            if (isTochingWall)
-                state = action.touchWall;
-        }
-        else if (rg.velocity.y < -0.1f)
+        if (!isGround)
         {
             state = action.fell;
-            if (isTochingWall)
-                state = action.touchWall;
         }
+        if (rg.velocity.y > 0.1f && !isGround)
+        {
+            state = action.jump;
+        }
+
         animator.SetInteger("State", (int)state);
-    }*/
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            animator.SetTrigger("Hit");
+            animator.SetFloat("TypeHit", 0);
+        }
+    }
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(pointDown.position, pointDownRadius);
         Gizmos.DrawLine(pointWall.position, new Vector3(pointWall.position.x + pointWallDistance, pointWall.position.y, pointWall.position.z));
-        Gizmos.DrawLine(pointClimWall.position, new Vector3(pointClimWall.position.x + pointClimWallDistance, pointClimWall.position.y, pointClimWall.position.z));
+        //Gizmos.DrawLine(pointClimWall.position, new Vector3(pointClimWall.position.x + pointClimWallDistance, pointClimWall.position.y, pointClimWall.position.z));
     }
 }
