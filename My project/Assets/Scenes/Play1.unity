@@ -2684,7 +2684,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 13.7, z: -10}
+  m_LocalPosition: {x: -0.19999981, y: -11.399999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4596,11 +4596,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743317115071205613, guid: 62832b34adc9de14babe54257f5058c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6279318
+      value: 3.03
       objectReference: {fileID: 0}
     - target: {fileID: 6743317115071205613, guid: 62832b34adc9de14babe54257f5058c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.795927
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 6743317115071205613, guid: 62832b34adc9de14babe54257f5058c9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11181,11 +11181,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4690692673435893141, guid: 3f2a46cad00a9a64497c5aabd068f717, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.07
+      value: -2.48
       objectReference: {fileID: 0}
     - target: {fileID: 4690692673435893141, guid: 3f2a46cad00a9a64497c5aabd068f717, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.81
+      value: -13.64
       objectReference: {fileID: 0}
     - target: {fileID: 4690692673435893141, guid: 3f2a46cad00a9a64497c5aabd068f717, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11722,7 +11722,7 @@ PrefabInstance:
     - target: {fileID: 3487504130546577771, guid: 6d38008bec608b64b98fc63979037c8d, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 6200000, guid: 840d2537a3e2fc042b1d83a6032eef33, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3684239068284092180, guid: 6d38008bec608b64b98fc63979037c8d, type: 3}
       propertyPath: m_Material
       value: 
@@ -11978,11 +11978,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5388305925463804654, guid: c3ba9e5a28c2ecd489a844b5a1a4edea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.9
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 5388305925463804654, guid: c3ba9e5a28c2ecd489a844b5a1a4edea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.2
+      value: -10.9
       objectReference: {fileID: 0}
     - target: {fileID: 5388305925463804654, guid: c3ba9e5a28c2ecd489a844b5a1a4edea, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12018,7 +12018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7620910847600077826, guid: c3ba9e5a28c2ecd489a844b5a1a4edea, type: 3}
       propertyPath: maxHp
-      value: 10
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12035,11 +12035,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 337217093578874684, guid: 2aaebe86086d4114e85339a0993fb5cb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.35
+      value: -0.57
       objectReference: {fileID: 0}
     - target: {fileID: 337217093578874684, guid: 2aaebe86086d4114e85339a0993fb5cb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.540001
+      value: -14.19
       objectReference: {fileID: 0}
     - target: {fileID: 337217093578874684, guid: 2aaebe86086d4114e85339a0993fb5cb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12077,6 +12077,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoNhay
       objectReference: {fileID: 0}
+    - target: {fileID: 6772735366390732042, guid: 2aaebe86086d4114e85339a0993fb5cb, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772735366390732042, guid: 2aaebe86086d4114e85339a0993fb5cb, type: 3}
+      propertyPath: distance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8433361976353606610, guid: 2aaebe86086d4114e85339a0993fb5cb, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8433361976353606610, guid: 2aaebe86086d4114e85339a0993fb5cb, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 6a87846df1a0b3e46b44c5068b16d897, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
