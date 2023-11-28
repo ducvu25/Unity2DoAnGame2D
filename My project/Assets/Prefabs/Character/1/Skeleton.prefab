@@ -308,8 +308,9 @@ GameObject:
   - component: {fileID: 7550636206266815972}
   - component: {fileID: 3158301296311367879}
   - component: {fileID: 963663764522936556}
-  - component: {fileID: 76538805637612715}
   - component: {fileID: 4153265367292764841}
+  - component: {fileID: 5357568343799989020}
+  - component: {fileID: 76538805637612715}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Untagged
@@ -406,29 +407,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &76538805637612715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6274454219590215449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 507d9fea2299c814193b6d67e5a1610c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  maxHp: 0
-  dame: 0
-  timeSpawn: 0
-  timeIdle: 0
-  pointLimit: {fileID: 0}
-  pointRadius: 5
-  pointLine:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!50 &4153265367292764841
 Rigidbody2D:
   serializedVersion: 4
@@ -456,3 +434,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5357568343799989020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6274454219590215449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507f1f9a49a579243b7b717eab1c57c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  maxhp: 500
+  timeSpawn: 1
+  timeIdle: 1
+  delayFilip: 0.1
+  delayHit: 1
+  hp: 0
+  distance: 5
+--- !u!114 &76538805637612715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6274454219590215449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507d9fea2299c814193b6d67e5a1610c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointLimit: {fileID: 0}
+  pointRadius: 5
+  pointLine:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
