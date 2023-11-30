@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Application.targetFrameRate = 180;
+        Application.targetFrameRate = 50;
         player = FindObjectOfType<PlayerController>().gameObject;
         //Debug.Log(listDoiTuong.Length);
         //menuPause.SetActive(false);

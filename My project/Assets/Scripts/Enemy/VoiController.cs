@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class VoiController : MonoBehaviour
 {
-    [Header("------------Information--------------")]
-    [SerializeField] float speed;
-    [SerializeField] float maxHp;
-    [SerializeField] float dame;
-    [SerializeField] float timeSpawn;
-    [SerializeField] float timeIdle;
+    float _delayHit = 0;
+    float _delayFlip;
     float _timeIdle;
     float _timeSpawn;
 
     [Header("\n-----------Check Ground--------------")]
     [SerializeField] LayerMask lmGround;
+    [SerializeField] LayerMask lmPlayer;
     [SerializeField] Transform pointDown;
     [SerializeField] float pointDownRadius = 0.5f;
     bool isGround;
@@ -27,8 +24,8 @@ public class VoiController : MonoBehaviour
     bool facingRight;
     Rigidbody2D rg;
     Animator animator;
-    BoxCollider2D boxCollider;
-    CircleCollider2D circleCollider;
+    EnemyInformation enemyInformation;
+    GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +33,8 @@ public class VoiController : MonoBehaviour
         rg = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        boxCollider = GetComponent<BoxCollider2D>();
-        circleCollider = GetComponent<CircleCollider2D>();
+        enemyInformation = GetComponent<EnemyInformation>();
+        player = FindObjectOfType<PlayerController>().gameObject;
     }
 
     // Update is called once per frame
@@ -54,17 +51,27 @@ public class VoiController : MonoBehaviour
         {
             if (!isGround)
             {
-                Filip();
-                _timeIdle = timeIdle;
+                Flip();
+                _timeIdle = enemyInformation.timeIdle;
                 animator.SetInteger("Run", 0);
             }
             isGround = false;
         }
         if (Physics2D.OverlapCircle(pointRight.position, pointRightRadius, lmGround2))
-                Filip();
+            Flip();
+        if (Physics2D.OverlapCircle(pointDown.position, pointDownRadius, lmPlayer) && _timeSpawn <= 0)
+        {
+            animator.SetTrigger("Attack");
+            _timeSpawn = enemyInformation.timeSpawn;
+        }
     }
-    void Filip()
+    void Flip()
     {
+        if (_delayFlip > 0)
+        {
+            return;
+        }
+        _delayFlip = enemyInformation.delayFilip;
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
@@ -80,11 +87,11 @@ public class VoiController : MonoBehaviour
         animator.SetInteger("Run", 1);
         if (facingRight)
         {
-            rg.velocity = new Vector2(speed, 0.1f);
+            rg.velocity = new Vector2(enemyInformation.speed, 0.1f);
         }
         else
         {
-            rg.velocity = new Vector2(-speed, 0.1f);
+            rg.velocity = new Vector2(-enemyInformation.speed, 0.1f);
         }
     }
     void OnDrawGizmos()
@@ -98,20 +105,22 @@ public class VoiController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (other.bounds.Intersects(boxCollider.bounds) && _timeSpawn <= 0)
+            if (other.CompareTag("EffectAttackPlayer") && _delayHit <= 0)
             {
-                animator.SetTrigger("Attack");
-                _timeSpawn = timeSpawn;
-            }
-            else if (other.bounds.Intersects(circleCollider.bounds))
-            {
-                // Xử lý khi player va chạm với circle collider của boss
-                Debug.Log("Player va chạm với circle collider của boss");
+                _delayHit = enemyInformation.delayHit;
+                if (enemyInformation.Hit(other.gameObject.GetComponent<DameEnemyController>().dame))
+                {
+                    animator.SetTrigger("Die");
+                    Invoke("Destroy", 2);
+                }
+
+                animator.SetTrigger("Hit");
+                rg.velocity = new Vector2(0, 0);
             }
         }
     }
-    public void AddDame(float dame)
+    private void OnDestroy()
     {
-        animator.SetTrigger("Hit");
+        gameObject.SetActive(false);
     }
 }

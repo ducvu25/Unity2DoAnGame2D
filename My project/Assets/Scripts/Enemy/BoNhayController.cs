@@ -131,7 +131,7 @@ public class BoNhayController : MonoBehaviour
             if (enemyInformation.Hit(other.gameObject.GetComponent<DameEnemyController>().dame))
             {
                 animator.SetTrigger("Die");
-                Destroy(gameObject, 2f);
+                Invoke("Destroy", 2);
             }
             
             animator.SetTrigger("Hit");
@@ -146,5 +146,9 @@ public class BoNhayController : MonoBehaviour
             Flip();
             attack = false;
         }
+    }
+    private void OnDestroy()
+    {
+        gameObject.SetActive(false);
     }
 }

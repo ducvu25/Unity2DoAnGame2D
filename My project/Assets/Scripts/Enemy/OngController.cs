@@ -44,12 +44,17 @@ public class OngController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector2.Distance(transform.TransformPoint(Vector3.zero), player.transform.TransformPoint(Vector3.zero)) < enemyInformation.distance)
+        if (Vector2.Distance(transform.TransformPoint(Vector3.zero), player.transform.position) < enemyInformation.distance)
         {
             attack = true;
             if (Vector2.Distance(transform.TransformPoint(Vector3.zero), transform.parent.TransformPoint(Vector3.zero)) > 1.5f * enemyInformation.distance)
             {
                 attack = false;
+            }
+            if (attack && Vector2.Distance(transform.TransformPoint(Vector3.zero), player.transform.position) < enemyInformation.distance / 5 && _timeSpawn <= 0)
+            {
+                animator.SetTrigger("Attack");
+                _timeSpawn = enemyInformation.timeSpawn;
             }
         }
         else if ((transform.TransformPoint(Vector3.zero).x > player.transform.TransformPoint(Vector3.zero).x && facingRight)
@@ -124,7 +129,7 @@ public class OngController : MonoBehaviour
     void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(pointLimit.position, pointRadius);
-        Gizmos.DrawLine(transform.position, player.transform.position);
+        //Gizmos.DrawLine(transform.position, player.transform.position);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -135,11 +140,15 @@ public class OngController : MonoBehaviour
             if (enemyInformation.Hit(other.gameObject.GetComponent<DameEnemyController>().dame))
             {
                 animator.SetTrigger("Die");
-                Destroy(gameObject, 2f);
+                Invoke("Destroy", 2);
             }
 
             animator.SetTrigger("Hit");
             rg.velocity = new Vector2(0, 0);
         }
+    }
+    private void OnDestroy()
+    {
+        gameObject.SetActive(false);
     }
 }
